@@ -32,3 +32,9 @@ pub struct Table {
     timer: u32, 
     party: Box<Party>,
 }
+
+impl Table {
+    pub fn create(id: String, seats: u32, server: String) -> Table {
+        Table {table_id: id, num_seats: seats, server_name: server, timer: 0, party: Box<Party> }
+    }
+}
