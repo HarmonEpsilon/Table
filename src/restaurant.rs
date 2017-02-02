@@ -24,3 +24,11 @@ impl Party {
         self.time_req
     }
 }
+
+pub struct Table {
+    table_id: String,
+    num_seats: u32,
+    server_name: String,
+    timer: u32, 
+    party: Box<Party>,
+}

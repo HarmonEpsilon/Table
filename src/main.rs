@@ -1,7 +1,6 @@
 use std::io;
 
-mod party;
-mod table;
+mod restaurant;
 
 fn main() {
     println!("Hello, world!");
